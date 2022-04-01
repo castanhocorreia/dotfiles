@@ -1,0 +1,9 @@
+[core]
+  editor = nvim
+
+[pull]
+  rebase = true
+
+[user]
+	email = me@castanhocorreia.com
+	name = Castanho Correia
