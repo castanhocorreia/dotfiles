@@ -20,7 +20,8 @@ sxhkd &
 feh --bg-fill /home/castanho/wallpaper.png &
 $HOME/.config/polybar/launcher.sh &
 $HOME/.config/xrandr/launcher.sh &
-setxkbmap -model pc104 -layout us,br -variant ,, -option grp:alt_shift_toggle &
 picom -f &
 dunst &
+wmname LG3D &
+copyq &
 bspc desktop Desktop --remove 

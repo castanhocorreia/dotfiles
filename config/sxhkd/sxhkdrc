@@ -112,6 +112,9 @@ super + {Left,Down,Up,Right}
 # pactl
 #
 
+alt + c
+	$HOME/.config/bspwm/scripts/kblayout.sh
+
 # raise volume
 XF86AudioRaiseVolume
 	pactl set-sink-volume @DEFAULT_SINK@ +10%
